@@ -22,7 +22,7 @@ export function Hero() {
       <div className="mx-auto text-4xl font-normal">
         Erstelle
         <FlipWords words={words} /> <br />
-        Webseiten mit der{" "}
+        Webseiten in der{" "}
         <LinkPreview
           url="https://developerakademie.com/"
           className="text-dev-aka"
