@@ -36,7 +36,7 @@ Um das Projekt lokal auszuführen, folge diesen Schritten:
 
 1. **Repository klonen:**
    ```bash
-   git clone https://github.com/deinbenutzername/DA_Profile_Landingpage.git
+   git clone https://github.com/mariokreitz/DA_Profile_Landingpage.git
    ```
 2. **In das Verzeichnis wechseln:**
    ```bash
