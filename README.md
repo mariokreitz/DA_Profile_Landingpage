@@ -1,5 +1,7 @@
 # DA Landingpage 🌐
 
+![preview](https://raw.githubusercontent.com/mariokreitz/DA_Profile_Landingpage/main/public/img/preview.png)
+
 Willkommen im Repository für die **DA Landingpage**! Diese Next.js-Webseite dient als Übersicht und Portfolio für die Projekte, die im Rahmen des Developer Akademie - Intensivkurses erstellt wurden. 🧑‍💻
 
 ## Inhaltsverzeichnis 📚
