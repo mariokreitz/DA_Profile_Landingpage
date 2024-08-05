@@ -119,7 +119,7 @@ export function ExpandableCard({ cards }: { cards: cards }) {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    className="lg:text-bas flex h-40 flex-col items-start gap-4 overflow-auto pb-10 text-xs [-ms-overflow-style:none] [-webkit-overflow-scrolling:touch] [mask:linear-gradient(to_bottom,white,white,transparent)] [scrollbar-width:none] md:h-fit md:text-sm"
+                    className="lg:text-bas flex h-40 flex-col items-start gap-4 overflow-auto pb-10 text-xs [-ms-overflow-style:none] [-webkit-overflow-scrolling:touch] [scrollbar-width:none] md:h-fit md:text-sm"
                   >
                     {typeof active.content === "function"
                       ? active.content()
@@ -131,7 +131,7 @@ export function ExpandableCard({ cards }: { cards: cards }) {
           </div>
         ) : null}
       </AnimatePresence>
-      <ul className="mx-auto w-full max-w-2xl gap-4">
+      <ul className="mx-auto flex w-full max-w-2xl flex-col gap-4">
         {cards.map((card, index) => (
           <motion.div
             layoutId={`card-${card.title}-${id}`}
@@ -139,7 +139,7 @@ export function ExpandableCard({ cards }: { cards: cards }) {
             onClick={() => setActive(card)}
             className="flex cursor-pointer flex-col items-center justify-between rounded-xl p-4 hover:bg-neutral-200 md:flex-row"
           >
-            <div className="flex flex-col gap-4 md:flex-row">
+            <div className="flex flex-col items-center gap-4 md:flex-row">
               <motion.div layoutId={`image-${card.title}-${id}`}>
                 <Image
                   width={100}
