@@ -9,7 +9,6 @@ Willkommen im Repository für die **DA Landingpage**! Diese Next.js-Webseite die
 - [Technologien](#technologien-)
 - [Installation](#installation-)
 - [Verwendung](#verwendung-)
-- [Beiträge](#beiträge-)
 - [Lizenz](#lizenz-)
 
 ## Über das Projekt 📝
@@ -37,7 +36,7 @@ Um das Projekt lokal auszuführen, folge diesen Schritten:
 
 1. **Repository klonen:**
    ```bash
-   git clone https://github.com/deinbenutzername/DA_Profile_Landingpage.git
+   git clone https://github.com/mariokreitz/DA_Profile_Landingpage.git
    ```
 2. **In das Verzeichnis wechseln:**
    ```bash
@@ -57,10 +56,6 @@ Die Webseite sollte jetzt unter `http://localhost:3000` verfügbar sein.
 ## Verwendung 🖥️
 
 Die Webseite bietet eine Übersicht der verschiedenen Projekte, die im Rahmen des Kurses entwickelt wurden. Nutze die expandierbaren Karten, um mehr über jedes Modul zu erfahren.
-
-## Beiträge 🤝
-
-Beiträge zu diesem Projekt sind willkommen! Bitte eröffne ein Issue, bevor du Änderungen vornimmst oder Pull-Requests erstellst. Gemeinsam können wir die Webseite weiter verbessern!
 
 ## Lizenz 📄
 
