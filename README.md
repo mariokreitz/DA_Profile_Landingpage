@@ -64,7 +64,7 @@ Beiträge zu diesem Projekt sind willkommen! Bitte eröffne ein Issue, bevor du 
 
 ## Lizenz 📄
 
-Dieses Projekt ist unter der MIT-Lizenz lizenziert – siehe die [LICENSE.md](LICENSE.md) Datei für Details.
+Dieses Projekt ist unter der MIT-Lizenz lizenziert – siehe die [LICENSE.md](https:///github.com/mariokreitz/DA_Profile_Landingpage/blob/main/LICENSE) Datei für Details.
 
 ---
 
