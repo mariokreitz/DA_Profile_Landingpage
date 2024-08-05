@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DA Landingpage 🌐
 
-## Getting Started
+Willkommen im Repository für die **DA Landingpage**! Diese Next.js-Webseite dient als Übersicht und Portfolio für die Projekte, die im Rahmen des Developer Akademie - Intensivkurses erstellt wurden. 🧑‍💻
 
-First, run the development server:
+## Inhaltsverzeichnis 📚
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Über das Projekt](#über-das-projekt-)
+- [Features](#features-)
+- [Technologien](#technologien-)
+- [Installation](#installation-)
+- [Verwendung](#verwendung-)
+- [Beiträge](#beiträge-)
+- [Lizenz](#lizenz-)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Über das Projekt 📝
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Die Landingpage bietet eine interaktive und moderne Plattform, um die Ergebnisse der einzelnen Module (1-18) des Developer Akademie - Intensivkurses zu präsentieren. Diese Webseite wurde mit Fokus auf ansprechendes Design und Benutzerfreundlichkeit entwickelt.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features ✨
 
-## Learn More
+- **Animiertes Profilbild im Header** 🖼️: Das Profilbild im Header verfügt über ein animiertes Tooltip, das beim Hoveren erscheint.
+- **Flip Words Überschrift** 🔄: Eine dynamische Überschrift, die ständig wechselnde Wörter zeigt.
+- **Expandable Card Sektion** 🗂️: Im Hauptbereich der Seite gibt es eine erweiterbare Kartensektion, die die Projekte der Module 1-18 übersichtlich präsentiert.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologien 🛠️
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Dieses Projekt wurde mit den folgenden Technologien entwickelt:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org/) - Ein Framework für React-Anwendungen
+- [React](https://reactjs.org/) - JavaScript-Bibliothek für Benutzeroberflächen
+- [Tailwind CSS](https://tailwindcss.com/) - Ein Utility-First CSS-Framework für schnelles Styling
+- [Framer Motion](https://www.framer.com/motion/) - Für Animationen
 
-## Deploy on Vercel
+## Installation 🚀
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Um das Projekt lokal auszuführen, folge diesen Schritten:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Repository klonen:**
+   ```bash
+   git clone https://github.com/deinbenutzername/DA_Profile_Landingpage.git
+   ```
+2. **In das Verzeichnis wechseln:**
+   ```bash
+   cd DA_Profile_Landingpage
+   ```
+3. **Abhängigkeiten installieren:**
+   ```bash
+   npm install
+   ```
+4. **Entwicklungsserver starten:**
+   ```bash
+   npm run dev
+   ```
+
+Die Webseite sollte jetzt unter `http://localhost:3000` verfügbar sein.
+
+## Verwendung 🖥️
+
+Die Webseite bietet eine Übersicht der verschiedenen Projekte, die im Rahmen des Kurses entwickelt wurden. Nutze die expandierbaren Karten, um mehr über jedes Modul zu erfahren.
+
+## Beiträge 🤝
+
+Beiträge zu diesem Projekt sind willkommen! Bitte eröffne ein Issue, bevor du Änderungen vornimmst oder Pull-Requests erstellst. Gemeinsam können wir die Webseite weiter verbessern!
+
+## Lizenz 📄
+
+Dieses Projekt ist unter der MIT-Lizenz lizenziert – siehe die [LICENSE.md](LICENSE.md) Datei für Details.
+
+---
+
+Vielen Dank fürs Vorbeischauen! 😊 Bei Fragen oder Anmerkungen kannst du gerne ein Issue eröffnen.
