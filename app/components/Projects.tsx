@@ -12,6 +12,121 @@ export function Projects() {
 
 const cards = [
   {
+    description: "Modul 7 Freiwilliges Projekt",
+    tech: "HTML, SCSS, OOP, JavaScript",
+    title: "Quizapp Projekt",
+    src: "/modul_7/quizz_preview.png",
+    ctaText: "Öffnen",
+    ctaLink: "/quizapp",
+    content: () => {
+      return (
+        <p>
+          Das &quot;QuizApp&quot;-Projekt ist das zentrale Vorhaben im Modul 7
+          und konzentriert sich auf die Entwicklung einer modernen Webanwendung,
+          die Nutzern ermöglicht, interaktive Quizze effizient zu erstellen und
+          zu verwalten. Im Gegensatz zu herkömmlichen Projekten wird hier SCSS
+          anstelle von CSS verwendet, um eine erweiterte und strukturierte
+          Gestaltung der Benutzeroberfläche zu ermöglichen. Die Anwendung ist im
+          Stil der objektorientierten Programmierung mit JavaScript umgesetzt,
+          was eine saubere und modulare Architektur sicherstellt.
+          <br />
+          <br />
+          **Ziele des Projekts:**
+          <br />- Nutzung von SCSS für eine verbesserte und organisierte
+          Gestaltung der Benutzeroberfläche. - Implementierung einer
+          objektorientierten JavaScript-Architektur für eine saubere und
+          wartbare Codebasis. - Entwicklung einer intuitiven und interaktiven
+          Benutzeroberfläche, die ein ansprechendes Quiz-Erlebnis bietet. -
+          Sicherstellung der responsiven Darstellung der Anwendung auf
+          verschiedenen Geräten und Bildschirmgrößen optimal dargestellt wird.
+        </p>
+      );
+    },
+  },
+  {
+    description: "Modul 7",
+    tech: "HTML, CSS, JS",
+    title: "Bestellapp Projekt",
+    src: "/modul_7/bestellapp_preview.png",
+    ctaText: "Öffnen",
+    ctaLink: "/bestellapp",
+    content: () => {
+      return (
+        <p>
+          Das &quot;BestellApp&quot;-Projekt ist das zentrale Vorhaben im Modul
+          7 und fokussiert sich auf die Entwicklung einer fortschrittlichen
+          Webanwendung, die es Nutzern ermöglicht, ihre Bestellungen effizient
+          zu verwalten und zu bearbeiten. Dieses Projekt hat das Ziel, eine
+          benutzerfreundliche und responsive Plattform zu schaffen, die
+          dynamisches Laden der Inhalte unterstützt und eine einfache
+          Bearbeitung des Warenkorbs ermöglicht.
+          <br />
+          <br />
+          **Ziele des Projekts:**
+          <br />- Implementierung eines dynamischen Ladens der Inhalte für eine
+          reibungslose Benutzererfahrung. - Entwicklung einer intuitiven
+          Funktion zur Bearbeitung des Warenkorbs. - Sicherstellung einer
+          responsiven Benutzeroberfläche, die auf verschiedenen Geräten und
+          Bildschirmgrößen optimal dargestellt wird.
+        </p>
+      );
+    },
+  },
+  {
+    description: "Modul 6",
+    tech: "HTML, CSS, JS",
+    title: "Fotogram Projekt",
+    src: "/modul_6/preview_fotogram.png",
+    ctaText: "Öffnen",
+    ctaLink: "/fotogram",
+    content: () => {
+      return (
+        <p>
+          Das &quot;Fotogram&quot;-Projekt ist das zentrale Vorhaben im Modul 6
+          und fokussiert sich auf die Entwicklung einer innovativen
+          Webanwendung, die es Nutzern ermöglicht, ihre Fotografien zu verwalten
+          und zu präsentieren. Dieses Projekt hat das Ziel, eine
+          benutzerfreundliche und visuell ansprechende Plattform zu schaffen,
+          die es den Nutzern erlaubt, ihre Fotos auf organisierte und kreative
+          Weise zu zeigen und mit anderen zu teilen.
+          <br />
+          <br />
+          **Ziele des Projekts:**
+          <br />- Entwicklung einer interaktiven und intuitiven Webanwendung für
+          die Verwaltung und Präsentation von Fotografien. - Verbesserung der
+          Benutzererfahrung durch ein ästhetisches Design und eine einfache
+          Navigation.
+        </p>
+      );
+    },
+  },
+  {
+    description: "Modul 6 Gruppenprojekt",
+    tech: "HTML, CSS, JS, JSON",
+    title: "Kochwelt Projekt",
+    src: "/modul_6/preview.png",
+    ctaText: "Öffnen",
+    ctaLink: "/kochwelt",
+    content: () => {
+      return (
+        <p>
+          Das &quot;Kochwelt&quot;-Projekt ist das Hauptprojekt im Modul 6 und
+          konzentriert sich auf die Entwicklung einer Webanwendung, die Nutzern
+          hilft, Rezepte zu entdecken und zu verwalten. Dieses Projekt zielt
+          darauf ab, eine benutzerfreundliche und ansprechende Plattform zu
+          schaffen, die es den Nutzern ermöglicht, ihre Kochideen zu
+          organisieren und neue Rezepte zu finden. <br />
+          <br /> Ziele des Projekts: <br /> Entwicklung einer interaktiven und
+          intuitiven Webanwendung für Rezeptmanagement. Verbesserung der
+          Benutzererfahrung durch ansprechendes Design und einfache Navigation.
+          Erstellung einer dynamischen Plattform, die auf die Bedürfnisse der
+          Nutzer eingeht und ihnen ermöglicht, ihre Kochleidenschaft zu
+          entfalten.
+        </p>
+      );
+    },
+  },
+  {
     description: "Modul 4",
     tech: "HTML, CSS",
     title: "Band Projekt",
@@ -87,8 +202,8 @@ const cards = [
     },
   },
   {
-    description: "Modul 3",
-    tech: "HTML, CSS",
+    description: "Modul 3 + 5 Responsive",
+    tech: "HTML, CSS, JS",
     title: "Sakura Ramen",
     src: "/modul_3/sakura_ramen.png",
     ctaText: "Öffnen",
