@@ -19,8 +19,8 @@ Die Landingpage bietet eine interaktive und moderne Plattform, um die Ergebnisse
 
 ## Features ✨
 
-- **Animiertes Profilbild im Header** 🖼️: Das Profilbild im Header verfügt über ein animierten Tooltip, das beim Hoveren erscheint.
-- **Flip Words Überschrift** 🔄: Eine dynamische Überschrift, die ständig im wechsel vordefinierte Wörter zeigt.
+- **Animiertes Profilbild im Header** 🖼️: Das Profilbild im Header verfügt über ein animiertes Tooltip, das beim Hoveren erscheint.
+- **Flip Words Überschrift** 🔄: Eine dynamische Überschrift, die ständig wechselnde Wörter zeigt.
 - **Expandable Card Sektion** 🗂️: Im Hauptbereich der Seite gibt es eine erweiterbare Kartensektion, die die Projekte der Module 1-18 übersichtlich präsentiert.
 
 ## Technologien 🛠️
