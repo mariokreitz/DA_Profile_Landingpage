@@ -12,6 +12,38 @@ export function Projects() {
 
 const cards = [
   {
+    description: "Modul 7 Zusatzaufgabe 1",
+    tech: "HTML, CSS, JavaScript",
+    title: "Book Store Projekt",
+    src: "/modul_7/bokkStore_preview.png",
+    ctaText: "Öffnen",
+    ctaLink: "/bookStore",
+    content: () => {
+      return (
+        <p>
+          Das &quot;BookStore&quot;-Projekt ist das zentrale Vorhaben im Modul 7
+          und konzentriert sich auf die Entwicklung einer umfassenden
+          Webanwendung, die Nutzern ermöglicht, Bücher effizient zu durchsuchen,
+          zu kaufen und ihre Bestellungen zu verwalten. Dieses Projekt setzt auf
+          den Einsatz von HTML, CSS und JavaScript, wobei ein besonderer
+          Schwerpunkt auf die Verwendung von HTML-Templates und die Nutzung der
+          Fetch-API gelegt wird, um dynamische Inhalte nahtlos zu integrieren
+          und eine reibungslose Benutzererfahrung zu gewährleisten.
+          <br />
+          <br />
+          **Ziele des Projekts:**
+          <br />- Verwendung von HTML-Templates zur Modularisierung und
+          Wiederverwendung von Interface-Komponenten. - Implementierung der
+          Fetch-API für dynamische Datenabrufe und eine interaktive
+          Benutzererfahrung. - Gestaltung einer benutzerfreundlichen und
+          ansprechenden Oberfläche mit CSS. - Sicherstellung einer responsiven
+          Darstellung der Anwendung auf verschiedenen Geräten und
+          Bildschirmgrößen.
+        </p>
+      );
+    },
+  },
+  {
     description: "Modul 7 Freiwilliges Projekt",
     tech: "HTML, SCSS, OOP, JavaScript",
     title: "Quizapp Projekt",
