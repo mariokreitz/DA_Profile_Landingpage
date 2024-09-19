@@ -12,9 +12,39 @@ export function Projects() {
 
 const cards = [
   {
+    description: "Modul 9 Portfolio Project",
+    tech: "ANGULAR, TYPESCRIPT, SCSS",
+    title: "Pokedex",
+    src: "https://raw.githubusercontent.com/mariokreitz/pokedex-v2/refs/heads/main/src/assets/screenshot.png",
+    ctaText: "Öffnen",
+    ctaLink: "https://pokedex.mario-kreitz.dev/",
+    content: () => {
+      return (
+        <p>
+          {" "}
+          Das &quot;Pokedex&quot;-Projekt ist das zentrale Vorhaben in Modul 9
+          und konzentriert sich auf die Entwicklung einer umfassenden
+          Webanwendung, die Nutzern ermöglicht, Pokémon effizient zu durchsuchen
+          und Informationen anzuzeigen. Dieses Projekt setzt auf den Einsatz von
+          Angular, wobei ein besonderer Schwerpunkt auf die Nutzung von
+          Komponenten und Services gelegt wird, um dynamische Inhalte nahtlos zu
+          integrieren und eine reibungslose Benutzererfahrung zu gewährleisten.
+          Zudem wird eine Cache-Funktion implementiert, um die Performance zu
+          optimieren. <br /> <br /> **Ziele des Projekts:** <br />- Verwendung
+          von Angular-Komponenten zur Modularisierung und Wiederverwendung von
+          Interface-Elementen. - Implementierung von Services für dynamische
+          Datenabrufe und eine interaktive Benutzererfahrung. - Gestaltung einer
+          benutzerfreundlichen und ansprechenden Oberfläche mit SCSS. -
+          Sicherstellung einer responsiven Darstellung der Anwendung auf
+          verschiedenen Geräten und Bildschirmgrößen.{" "}
+        </p>
+      );
+    },
+  },
+  {
     description: "Modul 7 Zusatzaufgabe 1",
     tech: "HTML, CSS, JavaScript",
-    title: "Book Store Projekt",
+    title: "Book Store",
     src: "/modul_7/bokkStore_preview.png",
     ctaText: "Öffnen",
     ctaLink: "/bookStore",
@@ -46,7 +76,7 @@ const cards = [
   {
     description: "Modul 7 Freiwilliges Projekt",
     tech: "HTML, SCSS, OOP, JavaScript",
-    title: "Quizapp Projekt",
+    title: "Quizapp",
     src: "/modul_7/quizz_preview.png",
     ctaText: "Öffnen",
     ctaLink: "/quizapp",
@@ -78,7 +108,7 @@ const cards = [
   {
     description: "Modul 7",
     tech: "HTML, CSS, JS",
-    title: "Bestellapp Projekt",
+    title: "Bestellapp",
     src: "/modul_7/bestellapp_preview.png",
     ctaText: "Öffnen",
     ctaLink: "/bestellapp",
@@ -107,7 +137,7 @@ const cards = [
   {
     description: "Modul 6",
     tech: "HTML, CSS, JS",
-    title: "Fotogram Projekt",
+    title: "Fotogram",
     src: "/modul_6/preview_fotogram.png",
     ctaText: "Öffnen",
     ctaLink: "/fotogram",
@@ -135,7 +165,7 @@ const cards = [
   {
     description: "Modul 6 Gruppenprojekt",
     tech: "HTML, CSS, JS, JSON",
-    title: "Kochwelt Projekt",
+    title: "Kochwelt",
     src: "/modul_6/preview.png",
     ctaText: "Öffnen",
     ctaLink: "/kochwelt",
@@ -161,7 +191,7 @@ const cards = [
   {
     description: "Modul 4",
     tech: "HTML, CSS",
-    title: "Band Projekt",
+    title: "Band",
     src: "/modul_4/rock_mountain.png",
     ctaText: "Öffnen",
     ctaLink: "/band",
@@ -188,7 +218,7 @@ const cards = [
   {
     description: "Modul 3 - Zusatzaufgabe 2",
     tech: "HTML, CSS",
-    title: "Headphone Projekt",
+    title: "Headphone",
     src: "/modul_3/headphone.png",
     ctaText: "Öffnen",
     ctaLink: "/headphone",
@@ -214,7 +244,7 @@ const cards = [
   {
     description: "Modul 3 - Zusatzaufgabe 1",
     tech: "HTML, CSS",
-    title: "Grid Projekt",
+    title: "Grid",
     src: "/modul_3/grid_project.png",
     ctaText: "Öffnen",
     ctaLink: "/grid-project",
