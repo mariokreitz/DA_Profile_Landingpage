@@ -12,6 +12,40 @@ export function Projects() {
 
 const cards = [
   {
+    description: "Modul 10 Portfolio Project",
+    tech: "Javascript, CSS, Firebase",
+    title: "JOIN",
+    src: "https://raw.githubusercontent.com/mariokreitz/JOIN/refs/heads/main/screenshot.png",
+    ctaText: "Öffnen",
+    ctaLink: "https://join.mario-kreitz.dev/",
+    content: () => {
+      return (
+        <p>
+          Das &quot;JOIN&quot;-Projekt ist ein smartes Projektmanagement-Tool,
+          das Teams dabei unterstützt, effektiv zusammenzuarbeiten und Projekte
+          übersichtlich zu organisieren. Dabei steht die Benutzererfahrung im
+          Vordergrund, um Aufgabenmanagement zu vereinfachen und die
+          Produktivität zu steigern.
+          <br /> <br /> **Projektbeschreibung:** <br />
+          **JOIN** wurde als Teil eines Trainingsprogramms an der Developer
+          Akademie entwickelt. Ziel des Projekts ist es, eine einfache, aber
+          leistungsstarke Lösung für das Aufgaben- und Verantwortungsmanagement
+          innerhalb von Teams zu bieten. **JOIN** ist eine Demo-Anwendung, die
+          zu Lernzwecken entwickelt wurde und nicht für den realen Einsatz
+          gedacht ist. Ob für Solo-Entwickler oder große Teams, **JOIN** kann
+          flexibel an die Bedürfnisse im Bildungskontext angepasst werden.
+          <br /> <br /> **Ziele des Projekts:** <br />- Nutzung von modularen
+          Komponenten zur Wiederverwendbarkeit und Modularisierung von
+          UI-Elementen. - Implementierung von Services für dynamische
+          Datenverwaltung und eine interaktive Benutzeroberfläche. - Erstellung
+          einer benutzerfreundlichen und ansprechenden Oberfläche mit SCSS. -
+          Sicherstellung einer responsiven Darstellung der Anwendung auf
+          verschiedenen Geräten und Bildschirmgrößen.
+        </p>
+      );
+    },
+  },
+  {
     description: "Modul 9 Portfolio Project",
     tech: "ANGULAR, TYPESCRIPT, SCSS",
     title: "Pokedex",
@@ -21,7 +55,6 @@ const cards = [
     content: () => {
       return (
         <p>
-          {" "}
           Das &quot;Pokedex&quot;-Projekt ist das zentrale Vorhaben in Modul 9
           und konzentriert sich auf die Entwicklung einer umfassenden
           Webanwendung, die Nutzern ermöglicht, Pokémon effizient zu durchsuchen
@@ -36,7 +69,7 @@ const cards = [
           Datenabrufe und eine interaktive Benutzererfahrung. - Gestaltung einer
           benutzerfreundlichen und ansprechenden Oberfläche mit SCSS. -
           Sicherstellung einer responsiven Darstellung der Anwendung auf
-          verschiedenen Geräten und Bildschirmgrößen.{" "}
+          verschiedenen Geräten und Bildschirmgrößen.
         </p>
       );
     },
