@@ -3,7 +3,7 @@ import { FlipWords } from "./ui/flip-words";
 import { LinkPreview } from "./ui/link-preview";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
 import { FloatingDock } from "./ui/floating-dock";
-import { IconBrandGithub } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
 
 export function Hero() {
   const words = ["bessere", "coole", "schöne", "moderne"];
@@ -11,14 +11,26 @@ export function Hero() {
     {
       id: 1,
       name: "Mario Kreitz",
-      designation: "Lead - Frontend Developer",
+      designation: "Owner",
       image: "/img/profile_mario.JPEG",
     },
     {
       id: 2,
       name: "Marcel Schmidt",
-      designation: "Projekt Partner - Frontend Developer",
+      designation: "Projekt Partner - Kochwelt",
       image: "/img/profile_marcel.jpeg",
+    },
+    {
+      id: 3,
+      name: "Murat Catili",
+      designation: "Projekt Partner - JOIN",
+      image: "/img/profile_murat.png",
+    },
+    {
+      id: 4,
+      name: "Christian Zela",
+      designation: "Projekt Partner - JOIN",
+      image: "/img/profile_christian.png",
     },
   ];
   const links = [
@@ -28,6 +40,13 @@ export function Hero() {
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "https://github.com/mariokreitz",
+    },
+    {
+      title: "LinkedIn",
+      icon: (
+        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "https://www.linkedin.com/in/mario-kreitz-70b68b336/",
     },
   ];
 
