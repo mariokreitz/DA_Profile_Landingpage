@@ -80,7 +80,7 @@ const cards = [
     title: "Book Store",
     src: "/modul_7/bokkStore_preview.png",
     ctaText: "Öffnen",
-    ctaLink: "/bookStore",
+    ctaLink: "https://mario-kreitz.developerakademie.net/bookStore/",
     content: () => {
       return (
         <p>
@@ -112,7 +112,7 @@ const cards = [
     title: "Quizapp",
     src: "/modul_7/quizz_preview.png",
     ctaText: "Öffnen",
-    ctaLink: "/quizapp",
+    ctaLink: "https://mario-kreitz.developerakademie.net/quizapp/",
     content: () => {
       return (
         <p>
@@ -144,7 +144,7 @@ const cards = [
     title: "Bestellapp",
     src: "/modul_7/bestellapp_preview.png",
     ctaText: "Öffnen",
-    ctaLink: "/bestellapp",
+    ctaLink: "https://mario-kreitz.developerakademie.net/bestellapp/",
     content: () => {
       return (
         <p>
@@ -173,7 +173,7 @@ const cards = [
     title: "Fotogram",
     src: "/modul_6/preview_fotogram.png",
     ctaText: "Öffnen",
-    ctaLink: "/fotogram",
+    ctaLink: "https://mario-kreitz.developerakademie.net/fotogram/",
     content: () => {
       return (
         <p>
@@ -201,7 +201,7 @@ const cards = [
     title: "Kochwelt",
     src: "/modul_6/preview.png",
     ctaText: "Öffnen",
-    ctaLink: "/kochwelt",
+    ctaLink: "https://mario-kreitz.developerakademie.net/kochwelt/",
     content: () => {
       return (
         <p>
@@ -227,7 +227,7 @@ const cards = [
     title: "Band",
     src: "/modul_4/rock_mountain.png",
     ctaText: "Öffnen",
-    ctaLink: "/band",
+    ctaLink: "https://mario-kreitz.developerakademie.net/band/",
     content: () => {
       return (
         <p>
@@ -254,7 +254,7 @@ const cards = [
     title: "Headphone",
     src: "/modul_3/headphone.png",
     ctaText: "Öffnen",
-    ctaLink: "/headphone",
+    ctaLink: "https://mario-kreitz.developerakademie.net/headphone/",
     content: () => {
       return (
         <p>
@@ -280,7 +280,7 @@ const cards = [
     title: "Grid",
     src: "/modul_3/grid_project.png",
     ctaText: "Öffnen",
-    ctaLink: "/grid-project",
+    ctaLink: "https://mario-kreitz.developerakademie.net/grid-project/",
     content: () => {
       return (
         <p>
@@ -302,7 +302,7 @@ const cards = [
     title: "Sakura Ramen",
     src: "/modul_3/sakura_ramen.png",
     ctaText: "Öffnen",
-    ctaLink: "/sakura-ramen",
+    ctaLink: "https://mario-kreitz.developerakademie.net/sakura-ramen/",
     content: () => {
       return (
         <p>
