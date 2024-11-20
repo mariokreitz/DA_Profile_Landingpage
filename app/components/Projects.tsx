@@ -15,7 +15,7 @@ const cards = [
     description: "Modul 12 Portfolio Project",
     tech: "TypeScript, OOP, CSS",
     title: "Shadowhound",
-    src: "https://raw.githubusercontent.com/mariokreitz/Shadowhound/refs/heads/main/screenshot_menu.png",
+    src: "https://raw.githubusercontent.com/mariokreitz/Shadowhound/refs/heads/main/screenshot_newmenu.png",
     ctaText: "Öffnen",
     ctaLink: "https://shadowhound.mario-kreitz.dev/",
     content: () => {
