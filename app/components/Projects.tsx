@@ -12,6 +12,42 @@ export function Projects() {
 
 const cards = [
   {
+    description: "Modul 12 Portfolio Project",
+    tech: "TypeScript, OOP, CSS",
+    title: "Shadowhound",
+    src: "https://raw.githubusercontent.com/mariokreitz/Shadowhound/refs/heads/main/screenshot_menu.png",
+    ctaText: "Öffnen",
+    ctaLink: "https://shadowhound.mario-kreitz.dev/",
+    content: () => {
+      return (
+        <p>
+          *Shadowhound* ist ein Side-Scrolling-Jump-and-Run-Spiel, in dem die
+          Spieler Norbert, einen kleinen schwarzen Hund, durch einen düsteren
+          Wald steuern. Ziel ist es, Monster mit einzigartigen Fähigkeiten zu
+          besiegen, Punkte zu sammeln und in der dunklen Umgebung zu überleben.
+          Das Spiel verwendet eine minimalistische Farbpalette aus Schwarz, Grau
+          und Weiß, um eine unheimliche, atmosphärische Welt zu schaffen.
+          <br /> <br /> **Projektbeschreibung:** <br />
+          *Shadowhound* wurde als Lernprojekt im Bereich Webgame-Entwicklung
+          entworfen. Ziel des Projekts ist es, Programmierkenntnisse,
+          insbesondere in objektorientierter Programmierung (OOP) mit
+          TypeScript, zu vertiefen. Das Spiel ist eine Demo-Anwendung, die zu
+          Bildungszwecken erstellt wurde und nicht für den kommerziellen Einsatz
+          gedacht ist. Ob für Einsteiger oder erfahrene Entwickler,
+          *Shadowhound* bietet eine Grundlage, um Techniken in der
+          Spieleentwicklung zu erforschen.
+          <br /> <br /> **Ziele des Projekts:** <br />- Nutzung von Klassen und
+          Design Patterns wie dem State Design Pattern für ein dynamisches
+          Spielerlebnis. - Implementierung einer flüssigen Steuerung mit
+          Tastatur-Eingaben und Debug-Modus. - Erstellung einer atmosphärischen
+          Benutzererfahrung durch gezielte visuelle und akustische Gestaltung. -
+          Sicherstellung einer responsiven Darstellung und Steuerung,
+          einschließlich mobiler Kompatibilität.
+        </p>
+      );
+    },
+  },
+  {
     description: "Modul 10 Portfolio Project",
     tech: "Javascript, CSS, Firebase",
     title: "JOIN",
