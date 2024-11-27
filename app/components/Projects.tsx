@@ -12,10 +12,32 @@ export function Projects() {
 
 const cards = [
   {
+    description: "Modul 14 - Angular",
+    tech: "Angular, TypeScript",
+    title: "DAfruits",
+    src: "http://mario-kreitz.developerakademie.net/modul_13/dafruits.png",
+    ctaText: "Öffnen",
+    ctaLink: "https://mario-kreitz.developerakademie.net/fruitbasket/",
+    content: () => {
+      return <p></p>;
+    },
+  },
+  {
+    description: "Modul 13 - Angular",
+    tech: "Angular, TypeScript",
+    title: "Sakura Ramen - Angular",
+    src: "",
+    ctaText: "Öffnen",
+    ctaLink: "",
+    content: () => {
+      return <p></p>;
+    },
+  },
+  {
     description: "Modul 12 Portfolio Project",
     tech: "TypeScript, OOP, CSS",
     title: "Shadowhound",
-    src: "https://raw.githubusercontent.com/mariokreitz/Shadowhound/refs/heads/main/screenshot_newmenu.png",
+    src: "https://raw.githubusercontent.com/mariokreitz/Shadowhound/refs/heads/main/screenshot_menu.png",
     ctaText: "Öffnen",
     ctaLink: "https://shadowhound.mario-kreitz.dev/",
     content: () => {
@@ -83,7 +105,7 @@ const cards = [
   },
   {
     description: "Modul 9 Portfolio Project",
-    tech: "ANGULAR, TYPESCRIPT, SCSS",
+    tech: "Angular, TypeScript, SCSS",
     title: "Pokedex",
     src: "https://raw.githubusercontent.com/mariokreitz/pokedex-v2/refs/heads/main/src/assets/screenshot.png",
     ctaText: "Öffnen",
